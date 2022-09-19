@@ -136,9 +136,9 @@ h6 {
 }
 
 #header .logo img {
-  padding: 0;
+  padding-bottom: 8px;
   margin: 0;
-  max-height: 40px;
+  max-height: 55px;
 }
 
 .scrolled-offset {
@@ -554,6 +554,10 @@ h6 {
 
   #hero .carousel-item {
     height: 90vh;
+  }
+
+  #hero h2 {
+    font-size: 35px;
   }
 }
 
@@ -2206,6 +2210,19 @@ section {
   margin-bottom: 30px;
 }
 
+@media (min-width: 721px) {
+  #footer .footer-top .footer-links, .footer-contact, .footer-info {
+    width: 33%;
+  }
+}
+
+@media (max-width: 720px) {
+  #footer .footer-top .footer-links, .footer-contact, .footer-info {
+    width: 100%;
+  }
+}
+
+
 #footer .footer-top .footer-contact p {
   line-height: 26px;
 }
@@ -2224,6 +2241,8 @@ section {
 
 
 
-#face-the-world {
+#footer h2 {
   text-align: center;
+  padding: 20px;
+  margin: 0px;
 }
